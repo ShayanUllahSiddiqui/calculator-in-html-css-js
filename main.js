@@ -18,4 +18,4 @@ btn.addEventListener('click', () => {
 
 clr.addEventListener('click', () => {
     num.forEach(n => n.value = '')
-})
+});
