@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href="./styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>
+            Calculator
+        </h1>
+        <div class="input-control">
+            <label for="num1">
+                Number 1: <input type="text" id="num1" placeholder="First number" autofocus>
+            </label>
+        </div>
+
+        <div class="input-control">
+            <label for="num1">
+                Number 2: <input type="text" id="num2" placeholder="Second number">
+            </label>
+        </div>
+
+        <div class="input-control controls">
+            <label for="method_add">
+                    <input type="radio" name="method" id="method_add" value="add" checked>
+                    Add
+            </label>
+            <label for="method_sub">
+                    <input type="radio" name="method" id="method_sub" value="sub">
+                    Subtract
+            </label>
+            <label for="method_mul">
+                    <input type="radio" name="method" id="method_mul" value="mul">
+                    Multiply
+            </label>
+            <label for="method_div">
+                    <input type="radio" name="method" id="method_div" value="div">
+                    Divide
+            </label>
+        </div>
+
+        <div class="input-control button">
+            <button id="calculate">Calculate</button>
+            <button id='clear'>Clear</button>
+        </div>
+    </div>
+    <p class="answer"></p>
+
+    <script src='./main.js'></script>
+</body>
+
+</html>
